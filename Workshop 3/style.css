@@ -1,0 +1,54 @@
+
+*{
+        margin: 0;
+        padding: 0;
+        font-family:'Roboto Slab';
+}
+.navigation{
+    height: 20vh;
+    width: 100%;
+    background-image: url(bg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.logo{
+    font-size: 30px;
+    color:#C147E9;
+
+}
+ span{
+    color:#C147E9;
+ }
+nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 40px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+nav li{
+    list-style-type: none;
+    display: inline-block;
+}
+nav li a{
+    text-decoration:none ;
+    color:#735F32;
+    padding: 40px 10px;
+    font-size: 30px;
+}
+button{
+    background-color: white;
+    border-radius: 200px;
+    cursor: pointer;
+    font-size: 20px;
+    color:#C147E9;
+    padding: 10px 10px;
+    font-weight: bold;
+}
+button:hover{
+    background-color: whitesmoke;
+}
+ 
+
+ 
